@@ -274,6 +274,33 @@ a:hover {
   font-size: 0.95rem;
 }
 
+/* ---------- Languages ---------- */
+.languages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
+.language-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.25rem;
+  background-color: var(--card-bg, #1a1b26);
+  border: 1px solid var(--border-color, #2f334d);
+  border-radius: 8px;
+}
+
+.language-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.language-level {
+  color: var(--accent);
+  font-size: 0.95rem;
+}
+
 /* ---------- Footer ---------- */
 .footer {
   padding: 2.5rem 0;

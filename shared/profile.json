@@ -47,6 +47,13 @@
     },
     {
       "type": "work",
+      "title": "Profesor / Teacher",
+      "org": "MIOTI | Tech & Business School",
+      "period": "Oct 2024 - Mar 2026",
+      "description": "Docencia e impartición de formación técnica especializada en Data Science, Inteligencia Artificial y programación."
+    },
+    {
+      "type": "work",
       "title": "Data & AI Developer / Data Scientist",
       "org": "MIOTI Data & AI Services",
       "period": "Nov 2022 - Mar 2026",
@@ -76,9 +83,9 @@
     {
       "type": "education",
       "title": "Licenciatura en Ciencia de la Computación",
-      "org": "Universidad",
+      "org": "Universidad de La Habana",
       "period": "Formación Universitaria",
-      "description": "Formación fundamental en algoritmos, estructuras de datos, ingeniería de software y bases de la computación."
+      "description": "Formación fundamental en algoritmos, estructuras de datos, ingeniería de software, matemáticas y computación."
     }
   ]
 }
