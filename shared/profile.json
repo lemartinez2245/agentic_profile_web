@@ -6,7 +6,7 @@
   "location": "Madrid y alrededores, España",
   "contact": {
     "email": "luis@example.com",
-    "github": "https://github.com/tu-usuario",
+    "github": "https://github.com/lemartinez2245",
     "linkedin": "https://www.linkedin.com/in/luis-ernesto-mart%C3%ADnez-padr%C3%B3n-5b83661a0/",
     "twitter": ""
   },
@@ -15,21 +15,21 @@
       "title": "Análisis de Datos y Retail Analytics",
       "description": "Desarrollo de sistemas analíticos y modelos predictivos orientados al sector retail para optimización de procesos de negocio.",
       "tech": ["Python", "Machine Learning", "Data Science"],
-      "repo": "https://github.com/tu-usuario/retail-analytics",
+      "repo": "https://github.com/lemartinez2245/retail-analytics",
       "demo": ""
     },
     {
       "title": "Computer Vision & Gen AI Solutions",
       "description": "Implementación de modelos de visión por computador y herramientas basadas en Inteligencia Artificial Generativa.",
       "tech": ["Python", "Computer Vision", "GenAI"],
-      "repo": "https://github.com/tu-usuario/gen-ai-vision",
+      "repo": "https://github.com/lemartinez2245/gen-ai-vision",
       "demo": ""
     },
     {
       "title": "Portafolio Personal & Web App",
       "description": "Aplicación web full-stack con FastAPI y React para mostrar trayectoria profesional y proyectos.",
       "tech": ["React", "FastAPI", "Python", "Vite"],
-      "repo": "https://github.com/tu-usuario/sample_opencode_app",
+      "repo": "https://github.com/lemartinez2245/sample_opencode_app",
       "demo": ""
     }
   ],
