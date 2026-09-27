@@ -2,7 +2,7 @@
   "name": "Luis Ernesto Martínez Padrón",
   "role": "Data & Software Engineer",
   "tagline": "MSc. Data Science & Analytics | Lic. Ciencia de la Computación",
-  "bio": "Científico de datos e Ingeniero de Software con experiencia en análisis para el sector retail, Computer Vision, Gen AI y otras áreas de Machine Learning y desarrollo de software.",
+  "bio": "Científico de datos e Ingeniero de Software con sólida experiencia en desarrollo backend con Python (Django, Flask, FastAPI), bases de datos (PostgreSQL, MongoDB), Machine Learning, Computer Vision y Gen AI.",
   "location": "Madrid y alrededores, España",
   "contact": {
     "email": "luis@example.com",
@@ -10,6 +10,10 @@
     "linkedin": "https://www.linkedin.com/in/luis-ernesto-mart%C3%ADnez-padr%C3%B3n-5b83661a0/",
     "twitter": ""
   },
+  "languages": [
+    { "name": "Español", "level": "Nativo" },
+    { "name": "Inglés", "level": "Profesional / Técnico" }
+  ],
   "projects": [
     {
       "title": "Análisis de Datos y Retail Analytics",
@@ -37,16 +41,30 @@
     {
       "type": "work",
       "title": "Data & Software Engineer",
-      "org": "Deep Kernel Labs / Proyectos Tecnológicos",
+      "org": "Deep Kernel Labs",
       "period": "Actualidad",
-      "description": "Desarrollo de soluciones avanzadas en Machine Learning, Computer Vision y Gen AI."
+      "description": "Desarrollo de soluciones avanzadas en Machine Learning, Computer Vision, Gen AI y análisis para el sector retail."
+    },
+    {
+      "type": "work",
+      "title": "Desarrollador Web Backend & Especialista Informático",
+      "org": "Proyectos y Colaboraciones Previas",
+      "period": "2018 - 2022",
+      "description": "Desarrollo de aplicaciones web utilizando Python (Django, Flask), bases de datos relacionales y NoSQL (PostgreSQL, MongoDB), y gestión de infraestructura y sistemas."
     },
     {
       "type": "education",
-      "title": "MSc. Data Science & Analytics / Lic. Ciencia de la Computación",
-      "org": "Universidad / Estudios Superiores",
-      "period": "Estudios Universitarios y Máster",
-      "description": "Especialización avanzada en Ciencia de Datos, Analítica e Ingeniería de Computación."
+      "title": "MSc. Data Science & Analytics",
+      "org": "Estudios de Posgrado",
+      "period": "Reciente",
+      "description": "Especialización avanzada en Ciencia de Datos, Analítica de datos y Machine Learning."
+    },
+    {
+      "type": "education",
+      "title": "Licenciatura en Ciencia de la Computación",
+      "org": "Universidad",
+      "period": "Formación Universitaria",
+      "description": "Formación fundamental en algoritmos, estructuras de datos, ingeniería de software y bases de la computación."
     }
   ]
 }
