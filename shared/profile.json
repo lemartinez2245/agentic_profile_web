@@ -1,0 +1,59 @@
+{
+  "name": "Tu Nombre",
+  "role": "Desarrollador de Software",
+  "tagline": "Construyo experiencias web con Python y JavaScript.",
+  "bio": "Soy un desarrollador apasionado por crear soluciones útiles y bien diseñadas. Me interesa el desarrollo backend, las interfaces limpias y aprender nuevas tecnologías. Este es mi rincón personal en internet, donde reúno mis proyectos y mi trayectoria.",
+  "location": "Ciudad, País",
+  "contact": {
+    "email": "tu@email.com",
+    "github": "https://github.com/tu-usuario",
+    "linkedin": "https://www.linkedin.com/in/tu-usuario",
+    "twitter": ""
+  },
+  "projects": [
+    {
+      "title": "Proyecto destacado 1",
+      "description": "Descripción breve de qué hace este proyecto, qué problema resuelve y cuál fue tu aportación.",
+      "tech": ["Python", "FastAPI", "PostgreSQL"],
+      "repo": "https://github.com/tu-usuario/proyecto-1",
+      "demo": ""
+    },
+    {
+      "title": "Proyecto destacado 2",
+      "description": "Otro proyecto interesante: explica el contexto, la tecnología usada y el resultado obtenido.",
+      "tech": ["React", "Vite", "JavaScript"],
+      "repo": "https://github.com/tu-usuario/proyecto-2",
+      "demo": "https://tu-usuario.github.io/proyecto-2"
+    },
+    {
+      "title": "Proyecto destacado 3",
+      "description": "Un tercer proyecto para completar tu portafolio inicial. Puedes editar o eliminar esta tarjeta.",
+      "tech": ["Python", "CLI", "Automatización"],
+      "repo": "https://github.com/tu-usuario/proyecto-3",
+      "demo": ""
+    }
+  ],
+  "experience": [
+    {
+      "type": "work",
+      "title": "Desarrollador de Software",
+      "org": "Nombre de la empresa",
+      "period": "2023 - Actualidad",
+      "description": "Responsabilidades principales, tecnologías utilizadas y logros destacados."
+    },
+    {
+      "type": "education",
+      "title": "Grado en Informática / Ingeniería",
+      "org": "Nombre de la universidad o formación",
+      "period": "2019 - 2023",
+      "description": "Especialización, TFG o cursos relevantes."
+    },
+    {
+      "type": "work",
+      "title": "Prácticas como desarrollador",
+      "org": "Nombre de la empresa",
+      "period": "2022",
+      "description": "Breve descripción de las tareas realizadas durante las prácticas."
+    }
+  ]
+}
