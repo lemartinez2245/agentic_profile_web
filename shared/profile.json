@@ -1,59 +1,52 @@
 {
-  "name": "Tu Nombre",
-  "role": "Desarrollador de Software",
-  "tagline": "Construyo experiencias web con Python y JavaScript.",
-  "bio": "Soy un desarrollador apasionado por crear soluciones útiles y bien diseñadas. Me interesa el desarrollo backend, las interfaces limpias y aprender nuevas tecnologías. Este es mi rincón personal en internet, donde reúno mis proyectos y mi trayectoria.",
-  "location": "Ciudad, País",
+  "name": "Luis Ernesto Martínez Padrón",
+  "role": "Data & Software Engineer",
+  "tagline": "MSc. Data Science & Analytics | Lic. Ciencia de la Computación",
+  "bio": "Científico de datos e Ingeniero de Software con experiencia en análisis para el sector retail, Computer Vision, Gen AI y otras áreas de Machine Learning y desarrollo de software.",
+  "location": "Madrid y alrededores, España",
   "contact": {
-    "email": "tu@email.com",
+    "email": "luis@example.com",
     "github": "https://github.com/tu-usuario",
-    "linkedin": "https://www.linkedin.com/in/tu-usuario",
+    "linkedin": "https://www.linkedin.com/in/luis-ernesto-mart%C3%ADnez-padr%C3%B3n-5b83661a0/",
     "twitter": ""
   },
   "projects": [
     {
-      "title": "Proyecto destacado 1",
-      "description": "Descripción breve de qué hace este proyecto, qué problema resuelve y cuál fue tu aportación.",
-      "tech": ["Python", "FastAPI", "PostgreSQL"],
-      "repo": "https://github.com/tu-usuario/proyecto-1",
+      "title": "Análisis de Datos y Retail Analytics",
+      "description": "Desarrollo de sistemas analíticos y modelos predictivos orientados al sector retail para optimización de procesos de negocio.",
+      "tech": ["Python", "Machine Learning", "Data Science"],
+      "repo": "https://github.com/tu-usuario/retail-analytics",
       "demo": ""
     },
     {
-      "title": "Proyecto destacado 2",
-      "description": "Otro proyecto interesante: explica el contexto, la tecnología usada y el resultado obtenido.",
-      "tech": ["React", "Vite", "JavaScript"],
-      "repo": "https://github.com/tu-usuario/proyecto-2",
-      "demo": "https://tu-usuario.github.io/proyecto-2"
+      "title": "Computer Vision & Gen AI Solutions",
+      "description": "Implementación de modelos de visión por computador y herramientas basadas en Inteligencia Artificial Generativa.",
+      "tech": ["Python", "Computer Vision", "GenAI"],
+      "repo": "https://github.com/tu-usuario/gen-ai-vision",
+      "demo": ""
     },
     {
-      "title": "Proyecto destacado 3",
-      "description": "Un tercer proyecto para completar tu portafolio inicial. Puedes editar o eliminar esta tarjeta.",
-      "tech": ["Python", "CLI", "Automatización"],
-      "repo": "https://github.com/tu-usuario/proyecto-3",
+      "title": "Portafolio Personal & Web App",
+      "description": "Aplicación web full-stack con FastAPI y React para mostrar trayectoria profesional y proyectos.",
+      "tech": ["React", "FastAPI", "Python", "Vite"],
+      "repo": "https://github.com/tu-usuario/sample_opencode_app",
       "demo": ""
     }
   ],
   "experience": [
     {
       "type": "work",
-      "title": "Desarrollador de Software",
-      "org": "Nombre de la empresa",
-      "period": "2023 - Actualidad",
-      "description": "Responsabilidades principales, tecnologías utilizadas y logros destacados."
+      "title": "Data & Software Engineer",
+      "org": "Deep Kernel Labs / Proyectos Tecnológicos",
+      "period": "Actualidad",
+      "description": "Desarrollo de soluciones avanzadas en Machine Learning, Computer Vision y Gen AI."
     },
     {
       "type": "education",
-      "title": "Grado en Informática / Ingeniería",
-      "org": "Nombre de la universidad o formación",
-      "period": "2019 - 2023",
-      "description": "Especialización, TFG o cursos relevantes."
-    },
-    {
-      "type": "work",
-      "title": "Prácticas como desarrollador",
-      "org": "Nombre de la empresa",
-      "period": "2022",
-      "description": "Breve descripción de las tareas realizadas durante las prácticas."
+      "title": "MSc. Data Science & Analytics / Lic. Ciencia de la Computación",
+      "org": "Universidad / Estudios Superiores",
+      "period": "Estudios Universitarios y Máster",
+      "description": "Especialización avanzada en Ciencia de Datos, Analítica e Ingeniería de Computación."
     }
   ]
 }
