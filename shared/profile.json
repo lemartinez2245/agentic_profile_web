@@ -42,8 +42,15 @@
       "type": "work",
       "title": "Data & Software Engineer",
       "org": "Deep Kernel Labs",
-      "period": "Actualidad",
+      "period": "2026 - Actualidad",
       "description": "Desarrollo de soluciones avanzadas en Machine Learning, Computer Vision, Gen AI y análisis para el sector retail."
+    },
+    {
+      "type": "work",
+      "title": "Software Developer",
+      "org": "The BackYard Dev",
+      "period": "2022 - 2026",
+      "description": "Desarrollo de software y soluciones backend y web, construyendo aplicaciones eficientes y escalables."
     },
     {
       "type": "work",
@@ -55,8 +62,8 @@
     {
       "type": "education",
       "title": "MSc. Data Science & Analytics",
-      "org": "Estudios de Posgrado",
-      "period": "Reciente",
+      "org": "MIOTI | Tech & Business School",
+      "period": "Posgrado",
       "description": "Especialización avanzada en Ciencia de Datos, Analítica de datos y Machine Learning."
     },
     {
