@@ -8,8 +8,8 @@ export default function Languages({ languages }) {
           Idiomas
         </h2>
         <div className="languages-grid">
-          {languages.map((lang, index) => (
-            <div key={`${lang.name}-${index}`} className="language-card">
+          {languages.map((lang) => (
+            <div key={lang.id || lang.name} className="language-card">
               <span className="language-name">{lang.name}</span>
               <span className="language-level">{lang.level}</span>
             </div>

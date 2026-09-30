@@ -6,15 +6,7 @@ import Languages from './components/Languages.jsx'
 import Footer from './components/Footer.jsx'
 
 export default function App() {
-  const { profile, loading } = useProfile()
-
-  if (loading) {
-    return (
-      <div className="loading" role="status">
-        Cargando…
-      </div>
-    )
-  }
+  const { profile } = useProfile()
 
   return (
     <>

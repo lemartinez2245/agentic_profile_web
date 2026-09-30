@@ -3,12 +3,33 @@ export default function Hero({ profile }) {
 
   const links = [
     contact?.email && {
+      id: 'contact-email',
       label: 'Email',
       href: `mailto:${contact.email}`,
+      isExternal: false,
+      ariaLabel: `Enviar correo electrónico a ${contact.email}`,
     },
-    contact?.github && { label: 'GitHub', href: contact.github },
-    contact?.linkedin && { label: 'LinkedIn', href: contact.linkedin },
-    contact?.twitter && { label: 'X', href: contact.twitter },
+    contact?.github && {
+      id: 'contact-github',
+      label: 'GitHub',
+      href: contact.github,
+      isExternal: true,
+      ariaLabel: 'Perfil de GitHub (abre en nueva pestaña)',
+    },
+    contact?.linkedin && {
+      id: 'contact-linkedin',
+      label: 'LinkedIn',
+      href: contact.linkedin,
+      isExternal: true,
+      ariaLabel: 'Perfil de LinkedIn (abre en nueva pestaña)',
+    },
+    contact?.twitter && {
+      id: 'contact-twitter',
+      label: 'X',
+      href: contact.twitter,
+      isExternal: true,
+      ariaLabel: 'Perfil de X / Twitter (abre en nueva pestaña)',
+    },
   ].filter(Boolean)
 
   return (
@@ -31,13 +52,14 @@ export default function Hero({ profile }) {
           {location && <span className="hero__meta">📍 {location}</span>}
         </section>
 
-        <nav className="hero__links" aria-label="Contacto">
+        <nav className="hero__links" aria-label="Enlaces de contacto">
           {links.map((link) => (
             <a
-              key={link.label}
+              key={link.id}
               href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
+              target={link.isExternal ? '_blank' : undefined}
+              rel={link.isExternal ? 'noopener noreferrer' : undefined}
+              aria-label={link.ariaLabel}
               className="btn"
             >
               {link.label}

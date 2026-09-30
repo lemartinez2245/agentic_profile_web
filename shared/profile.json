@@ -11,11 +11,12 @@
     "twitter": ""
   },
   "languages": [
-    { "name": "Español", "level": "Nativo" },
-    { "name": "Inglés", "level": "Profesional / Técnico" }
+    { "id": "lang-es", "name": "Español", "level": "Nativo" },
+    { "id": "lang-en", "name": "Inglés", "level": "Profesional / Técnico" }
   ],
   "projects": [
     {
+      "id": "proj-retail-analytics",
       "title": "Análisis de Datos y Retail Analytics",
       "description": "Desarrollo de sistemas analíticos y modelos predictivos orientados al sector retail para optimización de procesos de negocio.",
       "tech": ["Python", "Machine Learning", "Data Science"],
@@ -23,6 +24,7 @@
       "demo": ""
     },
     {
+      "id": "proj-genai-vision",
       "title": "Computer Vision & Gen AI Solutions",
       "description": "Implementación de modelos de visión por computador y herramientas basadas en Inteligencia Artificial Generativa.",
       "tech": ["Python", "Computer Vision", "GenAI"],
@@ -30,6 +32,7 @@
       "demo": ""
     },
     {
+      "id": "proj-portfolio-app",
       "title": "Portafolio Personal & Web App",
       "description": "Aplicación web full-stack con FastAPI y React para mostrar trayectoria profesional y proyectos.",
       "tech": ["React", "FastAPI", "Python", "Vite"],
@@ -39,6 +42,7 @@
   ],
   "experience": [
     {
+      "id": "exp-deep-kernel-labs",
       "type": "work",
       "title": "Data & Software Engineer",
       "org": "Deep Kernel Labs",
@@ -46,6 +50,7 @@
       "description": "Desarrollo de soluciones avanzadas en Machine Learning, Computer Vision, Gen AI y análisis para el sector retail."
     },
     {
+      "id": "exp-mioti-teacher",
       "type": "work",
       "title": "Profesor / Teacher",
       "org": "MIOTI | Tech & Business School",
@@ -53,6 +58,7 @@
       "description": "Docencia e impartición de formación técnica especializada en Data Science, Inteligencia Artificial y programación."
     },
     {
+      "id": "exp-mioti-data-ai",
       "type": "work",
       "title": "Data & AI Developer / Data Scientist",
       "org": "MIOTI Data & AI Services",
@@ -60,6 +66,7 @@
       "description": "Desarrollo de proyectos de Inteligencia Artificial, analítica avanzada de datos y servicios tecnológicos aplicados, combinando Ciencia de Datos, Machine Learning y desarrollo de software."
     },
     {
+      "id": "exp-backyard-dev",
       "type": "work",
       "title": "Software Developer",
       "org": "The BackYard Dev",
@@ -67,6 +74,7 @@
       "description": "Desarrollo de software y soluciones backend y web, construyendo aplicaciones eficientes y escalables."
     },
     {
+      "id": "exp-previous-backend",
       "type": "work",
       "title": "Desarrollador Web Backend & Especialista Informático",
       "org": "Proyectos y Colaboraciones Previas",
@@ -74,6 +82,7 @@
       "description": "Desarrollo de aplicaciones web utilizando Python (Django, Flask), bases de datos relacionales y NoSQL (PostgreSQL, MongoDB), y gestión de infraestructura y sistemas."
     },
     {
+      "id": "edu-mioti-msc",
       "type": "education",
       "title": "MSc. Data Science & Analytics",
       "org": "MIOTI | Tech & Business School",
@@ -81,6 +90,7 @@
       "description": "Especialización avanzada en Ciencia de Datos, Analítica de datos y Machine Learning."
     },
     {
+      "id": "edu-uh-lic",
       "type": "education",
       "title": "Licenciatura en Ciencia de la Computación",
       "org": "Universidad de La Habana",

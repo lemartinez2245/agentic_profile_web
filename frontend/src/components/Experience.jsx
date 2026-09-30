@@ -13,8 +13,8 @@ export default function Experience({ experience }) {
           Experiencia y formación
         </h2>
         <ol className="timeline">
-          {experience.map((item, index) => (
-            <li key={`${item.title}-${index}`} className="timeline__item">
+          {experience.map((item) => (
+            <li key={item.id || item.title} className="timeline__item">
               <span className={`timeline__badge timeline__badge--${item.type}`}>
                 {TYPE_LABELS[item.type] || item.type}
               </span>

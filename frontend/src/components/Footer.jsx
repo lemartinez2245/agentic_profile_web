@@ -13,6 +13,7 @@ export default function Footer({ profile }) {
             href={profile.contact?.github}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Código fuente en GitHub (se abre en nueva pestaña)"
           >
             GitHub
           </a>
