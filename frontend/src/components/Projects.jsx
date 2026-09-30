@@ -5,7 +5,7 @@ export default function Projects({ projects }) {
     <section id="proyectos" className="section" aria-labelledby="proyectos-title">
       <div className="container">
         <h2 id="proyectos-title" className="section__title">
-          Proyectos
+          Proyectos destacados
         </h2>
         <div className="projects">
           {projects.map((project) => (
@@ -29,7 +29,7 @@ export default function Projects({ projects }) {
                     rel="noopener noreferrer"
                     className="link"
                   >
-                    Código →
+                    repo ↗
                   </a>
                 )}
                 {project.demo && (
@@ -39,7 +39,7 @@ export default function Projects({ projects }) {
                     rel="noopener noreferrer"
                     className="link"
                   >
-                    Demo →
+                    demo ↗
                   </a>
                 )}
               </div>

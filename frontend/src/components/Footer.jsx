@@ -5,10 +5,10 @@ export default function Footer({ profile }) {
     <footer className="footer">
       <div className="container">
         <p>
-          © {year} {profile.name}. Hecho con FastAPI y React.
+          © {year} {profile.name} — Data & Software Engineer
         </p>
         <p className="footer__note">
-          El código está disponible en{' '}
+          Código fuente disponible en{' '}
           <a
             href={profile.contact?.github}
             target="_blank"
@@ -16,7 +16,6 @@ export default function Footer({ profile }) {
           >
             GitHub
           </a>
-          .
         </p>
       </div>
     </footer>
