@@ -11,7 +11,7 @@
   },
   "languages": [
     { "id": "lang-es", "name": "Español", "level": "Nativo" },
-    { "id": "lang-en", "name": "Inglés", "level": "C2 Proficient (EF SET Certified)" }
+    { "id": "lang-en", "name": "Inglés", "level": "C2 Proficient" }
   ],
   "projects": [
     {
