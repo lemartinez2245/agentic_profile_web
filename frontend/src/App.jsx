@@ -4,12 +4,14 @@ import Experience from './components/Experience.jsx'
 import Certifications from './components/Certifications.jsx'
 import Languages from './components/Languages.jsx'
 import Footer from './components/Footer.jsx'
+import ThemeToggle from './components/ThemeToggle.jsx'
 
 export default function App() {
   const { profile } = useProfile()
 
   return (
     <>
+      <ThemeToggle />
       <Hero profile={profile} />
       <main>
         <Experience experience={profile.experience} />
