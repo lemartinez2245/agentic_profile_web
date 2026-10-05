@@ -349,21 +349,36 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.25rem;
+  gap: 1rem;
+  padding: 0.85rem 1.15rem;
   background-color: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
+  transition: border-color 0.15s ease;
+}
+
+.language-card:hover {
+  border-color: var(--accent);
 }
 
 .language-name {
   font-weight: 600;
   font-size: 0.95rem;
+  flex-shrink: 0;
 }
 
 .language-level {
   font-family: var(--font-mono);
   color: var(--accent);
-  font-size: 0.8rem;
+  background: var(--accent-dim);
+  border: 1px solid var(--accent-border);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  padding: 0.18rem 0.55rem;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  flex-shrink: 1;
+  min-width: 0;
 }
 
 /* ---------- Certifications Grid ---------- */
