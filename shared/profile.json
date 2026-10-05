@@ -4,6 +4,7 @@
   "tagline": "MSc. Data Science & Analytics | Lic. Ciencia de la Computación",
   "bio": "Científico de datos e Ingeniero de Software con sólida experiencia en desarrollo backend con Python (Django, Flask, FastAPI), bases de datos (PostgreSQL, MongoDB), Machine Learning, Computer Vision y Gen AI.",
   "location": "Madrid y alrededores, España",
+  "avatar": "profile-pic.jpg",
   "contact": {
     "email": "lemartinez2245@gmail.com",
     "github": "https://github.com/lemartinez2245",
