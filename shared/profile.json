@@ -7,12 +7,11 @@
   "contact": {
     "email": "lemartinez2245@gmail.com",
     "github": "https://github.com/lemartinez2245",
-    "linkedin": "https://www.linkedin.com/in/luis-ernesto-mart%C3%ADnez-padr%C3%B3n-5b83661a0/",
-    "twitter": ""
+    "linkedin": "https://www.linkedin.com/in/luis-ernesto-mart%C3%ADnez-padr%C3%B3n-5b83661a0/"
   },
   "languages": [
     { "id": "lang-es", "name": "Español", "level": "Nativo" },
-    { "id": "lang-en", "name": "Inglés", "level": "Profesional / Técnico" }
+    { "id": "lang-en", "name": "Inglés", "level": "C2 Proficient (EF SET Certified)" }
   ],
   "projects": [
     {
@@ -47,7 +46,7 @@
       "title": "Data & Software Engineer",
       "org": "Deep Kernel Labs",
       "period": "Mar 2026 - Actualidad",
-      "description": "Desarrollo de soluciones avanzadas en Machine Learning, Computer Vision, Gen AI y análisis para el sector retail."
+      "description": "Desarrollo de modelos predictivos (forecasting) de reparaciones para plantas de extracción de crudo, logrando mejoras de hasta un 30% en las métricas de calidad de entrenamiento. Creación e implementación de herramientas de automatización mediante scripting en Bash que redujeron en un 20% el tiempo medio del equipo en tareas de CI/CD e infraestructura. Uso intensivo de un stack moderno de datos: Airflow, Python, PySpark, pandas, polars, LightGBM, CatBoost y Scikit-Learn."
     },
     {
       "id": "exp-mioti-teacher",
@@ -55,7 +54,7 @@
       "title": "Profesor / Teacher",
       "org": "MIOTI | Tech & Business School",
       "period": "Oct 2024 - Mar 2026",
-      "description": "Docencia e impartición de formación técnica especializada en Data Science, Inteligencia Artificial y programación."
+      "description": "Impartición de formación técnica especializada en Data Science, Inteligencia Artificial y programación. Rol compaginado simultáneamente con el de Data Scientist, logrando una transferencia directa de casos reales de consultoría al aula, permitiendo el uso de ejemplos prácticos reales y manteniéndose a la vanguardia en tecnologías de última generación."
     },
     {
       "id": "exp-mioti-data-ai",
@@ -63,7 +62,7 @@
       "title": "Data & AI Developer / Data Scientist",
       "org": "MIOTI Data & AI Services",
       "period": "Nov 2022 - Mar 2026",
-      "description": "Desarrollo de proyectos de Inteligencia Artificial, analítica avanzada de datos y servicios tecnológicos aplicados, combinando Ciencia de Datos, Machine Learning y desarrollo de software."
+      "description": "Desarrollo de proyectos de Inteligencia Artificial, analítica avanzada de datos y soluciones tecnológicas aplicadas, integrando de manera continua el conocimiento de Ciencia de Datos y Machine Learning con desarrollo de software backend y metodologías de ingeniería de datos. Compaginado simultáneamente con actividades docentes para potenciar el flujo continuo entre práctica profesional y formación."
     },
     {
       "id": "exp-backyard-dev",
@@ -86,7 +85,7 @@
       "type": "education",
       "title": "MSc. Data Science & Analytics",
       "org": "MIOTI | Tech & Business School",
-      "period": "Posgrado",
+      "period": "Sep 2022 - May 2023",
       "description": "Especialización avanzada en Ciencia de Datos, Analítica de datos y Machine Learning."
     },
     {
@@ -94,8 +93,34 @@
       "type": "education",
       "title": "Licenciatura en Ciencia de la Computación",
       "org": "Universidad de La Habana",
-      "period": "Formación Universitaria",
-      "description": "Formación fundamental en algoritmos, estructuras de datos, ingeniería de software, matemáticas y computación."
+      "period": "Sep 2015 - Nov 2020",
+      "description": "Formación fundamental en algoritmos, estructuras de datos, ingeniería de software, matemáticas y computación (graduación demorada a noviembre por condiciones excepcionales de COVID-19)."
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-english-efset",
+      "title": "English Certificate C2 Proficient",
+      "org": "EF SET",
+      "url": "https://cert.efset.org/uuVnSR"
+    },
+    {
+      "id": "cert-langchain-python",
+      "title": "LangChain Essentials - Python",
+      "org": "LangChain Academy",
+      "url": "https://academy.langchain.com/certificates/uxz5yul2dq"
+    },
+    {
+      "id": "cert-langgraph-python",
+      "title": "LangGraph Essentials - Python",
+      "org": "LangChain Academy",
+      "url": "https://academy.langchain.com/certificates/kq7ozrez3i"
+    },
+    {
+      "id": "cert-responsive-web-design",
+      "title": "Legacy Responsive Web Design V8",
+      "org": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/lemartinez/responsive-web-design"
     }
   ]
 }
