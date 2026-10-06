@@ -25,4 +25,9 @@ export default defineConfig({
       allow: ['..'],
     },
   },
+  test: {
+    environment: 'jsdom',
+    setupFiles: ['./vitest.setup.js'],
+    globals: true,
+  },
 })
